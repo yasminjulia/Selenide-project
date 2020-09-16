@@ -1,0 +1,177 @@
+[1598834378.721][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 30533
+[1598834378.729][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1598834382.770][INFO]: [84f3f50bd1d7ca3ab6125d32ba0336bc] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\untitled\\build\\downloads\\1598834365784_11216_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\untitled\\build\\downloads\\1598834365784_11216_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1598834382.898][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\untitled\\build\\downloads\\1598834365784_11216_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1598834383.044][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1598834383.080][INFO]: Launching chrome: "C:\Users\Yasmin\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Yasmin\AppData\Local\Temp\scoped_dir5016_636030300" data:,
+[1598834403.114][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1598834405.517][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1598834408.741][INFO]: [84f3f50bd1d7ca3ab6125d32ba0336bc] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.135",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "C:\\Users\\Yasmin\\AppData\\Local\\Temp\\scoped_dir5016_636030300"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:64271"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "84f3f50bd1d7ca3ab6125d32ba0336bc"
+}
+[1598834410.734][INFO]: [84f3f50bd1d7ca3ab6125d32ba0336bc] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1598834410.734][INFO]: Waiting for pending navigations...
+[1598834410.741][INFO]: Done waiting for pending navigations. Status: ok
+[1598834411.022][INFO]: Waiting for pending navigations...
+[1598834411.024][INFO]: Done waiting for pending navigations. Status: ok
+[1598834411.024][INFO]: [84f3f50bd1d7ca3ab6125d32ba0336bc] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1598834411.137][INFO]: [84f3f50bd1d7ca3ab6125d32ba0336bc] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000/login"
+}
+[1598834411.137][INFO]: Waiting for pending navigations...
+[1598834411.139][INFO]: Done waiting for pending navigations. Status: ok
+[1598834411.765][INFO]: Waiting for pending navigations...
+[1598834440.363][INFO]: Done waiting for pending navigations. Status: ok
+[1598834440.363][INFO]: [84f3f50bd1d7ca3ab6125d32ba0336bc] RESPONSE Navigate
+[1598834440.373][INFO]: [84f3f50bd1d7ca3ab6125d32ba0336bc] COMMAND GetTitle {
+
+}
+[1598834440.373][INFO]: Waiting for pending navigations...
+[1598834440.404][INFO]: Done waiting for pending navigations. Status: ok
+[1598834440.482][INFO]: Waiting for pending navigations...
+[1598834440.486][INFO]: Done waiting for pending navigations. Status: ok
+[1598834440.486][INFO]: [84f3f50bd1d7ca3ab6125d32ba0336bc] RESPONSE GetTitle "Ninja+"
+[1598834440.723][INFO]: [84f3f50bd1d7ca3ab6125d32ba0336bc] COMMAND Quit {
+
+}
+[1598834445.513][INFO]: [84f3f50bd1d7ca3ab6125d32ba0336bc] RESPONSE Quit

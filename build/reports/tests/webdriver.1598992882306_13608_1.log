@@ -1,0 +1,312 @@
+[1598992886.994][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 35274
+[1598992886.994][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1598992889.686][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\untitled\\build\\downloads\\1598992869101_13608_1",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>", "--disable-dev-shm-usage" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\untitled\\build\\downloads\\1598992869101_13608_1",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1598992889.710][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "C:\\Users\\Yasmin\\IdeaProjects\\untitled\\build\\downloads\\1598992869101_13608_1"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1598992889.792][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1598992889.799][INFO]: Launching chrome: "C:\Users\Yasmin\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-dev-shm-usage --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Yasmin\AppData\Local\Temp\scoped_dir10832_698933478" data:,
+[1598992904.720][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1598992907.319][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1598992909.662][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.135",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "C:\\Users\\Yasmin\\AppData\\Local\\Temp\\scoped_dir10832_698933478"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:61186"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "0229d2a1f0693d095468cf139c428fe9"
+}
+[1598992910.603][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1598992910.603][INFO]: Waiting for pending navigations...
+[1598992910.609][INFO]: Done waiting for pending navigations. Status: ok
+[1598992910.922][INFO]: Waiting for pending navigations...
+[1598992910.926][INFO]: Done waiting for pending navigations. Status: ok
+[1598992910.926][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 10,
+   "y": 10
+}
+[1598992911.036][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND Navigate {
+   "url": "http://ninjaplus-web:5000"
+}
+[1598992911.036][INFO]: Waiting for pending navigations...
+[1598992911.038][INFO]: Done waiting for pending navigations. Status: ok
+[1598992911.589][INFO]: Waiting for pending navigations...
+[1598992957.451][INFO]: Done waiting for pending navigations. Status: ok
+[1598992957.451][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE Navigate
+[1598992959.601][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "input[name=email]"
+}
+[1598992959.601][INFO]: Waiting for pending navigations...
+[1598992959.603][INFO]: Done waiting for pending navigations. Status: ok
+[1598992959.926][INFO]: Waiting for pending navigations...
+[1598992959.928][INFO]: Done waiting for pending navigations. Status: ok
+[1598992959.928][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "cc21cb79-82dc-4253-b325-a72e32de58d1"
+}
+[1598992960.186][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "cc21cb79-82dc-4253-b325-a72e32de58d1"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1598992960.187][INFO]: Waiting for pending navigations...
+[1598992960.189][INFO]: Done waiting for pending navigations. Status: ok
+[1598992960.297][INFO]: Waiting for pending navigations...
+[1598992960.304][INFO]: Done waiting for pending navigations. Status: ok
+[1598992960.304][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE ExecuteScript true
+[1598992960.610][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND ClearElement {
+   "id": "cc21cb79-82dc-4253-b325-a72e32de58d1"
+}
+[1598992960.610][INFO]: Waiting for pending navigations...
+[1598992960.612][INFO]: Done waiting for pending navigations. Status: ok
+[1598992961.294][INFO]: 
+	=== NOTE: ===
+	The Clear command in ChromeDriver 2.43 and above
+	has been updated to conform to the current standard,
+	including raising blur event after clearing.
+
+[1598992961.396][INFO]: Waiting for pending navigations...
+[1598992961.398][INFO]: Done waiting for pending navigations. Status: ok
+[1598992961.398][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE ClearElement
+[1598992961.446][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND TypeElement {
+   "id": "cc21cb79-82dc-4253-b325-a72e32de58d1",
+   "text": "papito@ninjaplus.com",
+   "value": [ "p", "a", "p", "i", "t", "o", "@", "n", "i", "n", "j", "a", "p", "l", "u", "s", ".", "c", "o", "..." ]
+}
+[1598992961.446][INFO]: Waiting for pending navigations...
+[1598992961.448][INFO]: Done waiting for pending navigations. Status: ok
+[1598992961.953][INFO]: Waiting for pending navigations...
+[1598992962.000][INFO]: Done waiting for pending navigations. Status: ok
+[1598992962.000][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE TypeElement
+[1598992962.019][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "passId"
+}
+[1598992962.019][INFO]: Waiting for pending navigations...
+[1598992962.022][INFO]: Done waiting for pending navigations. Status: ok
+[1598992962.076][INFO]: Waiting for pending navigations...
+[1598992962.078][INFO]: Done waiting for pending navigations. Status: ok
+[1598992962.078][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"passId"}
+  (Session info: chrome=84.0.4147.135)
+[1598992962.604][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "passId"
+}
+[1598992962.604][INFO]: Waiting for pending navigations...
+[1598992962.605][INFO]: Done waiting for pending navigations. Status: ok
+[1598992962.635][INFO]: Waiting for pending navigations...
+[1598992962.637][INFO]: Done waiting for pending navigations. Status: ok
+[1598992962.637][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"passId"}
+  (Session info: chrome=84.0.4147.135)
+[1598992962.859][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "passId"
+}
+[1598992962.859][INFO]: Waiting for pending navigations...
+[1598992962.861][INFO]: Done waiting for pending navigations. Status: ok
+[1598992962.885][INFO]: Waiting for pending navigations...
+[1598992962.887][INFO]: Done waiting for pending navigations. Status: ok
+[1598992962.887][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"passId"}
+  (Session info: chrome=84.0.4147.135)
+[1598992963.109][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "passId"
+}
+[1598992963.109][INFO]: Waiting for pending navigations...
+[1598992963.113][INFO]: Done waiting for pending navigations. Status: ok
+[1598992963.151][INFO]: Waiting for pending navigations...
+[1598992963.154][INFO]: Done waiting for pending navigations. Status: ok
+[1598992963.154][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"passId"}
+  (Session info: chrome=84.0.4147.135)
+[1598992963.388][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "passId"
+}
+[1598992963.389][INFO]: Waiting for pending navigations...
+[1598992963.395][INFO]: Done waiting for pending navigations. Status: ok
+[1598992963.417][INFO]: Waiting for pending navigations...
+[1598992963.419][INFO]: Done waiting for pending navigations. Status: ok
+[1598992963.419][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"passId"}
+  (Session info: chrome=84.0.4147.135)
+[1598992963.638][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "passId"
+}
+[1598992963.638][INFO]: Waiting for pending navigations...
+[1598992963.646][INFO]: Done waiting for pending navigations. Status: ok
+[1598992963.669][INFO]: Waiting for pending navigations...
+[1598992963.671][INFO]: Done waiting for pending navigations. Status: ok
+[1598992963.672][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"passId"}
+  (Session info: chrome=84.0.4147.135)
+[1598992963.891][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "passId"
+}
+[1598992963.891][INFO]: Waiting for pending navigations...
+[1598992965.534][INFO]: Done waiting for pending navigations. Status: ok
+[1598992965.603][INFO]: Waiting for pending navigations...
+[1598992965.612][INFO]: Done waiting for pending navigations. Status: ok
+[1598992965.613][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"passId"}
+  (Session info: chrome=84.0.4147.135)
+[1598992965.848][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND FindElement {
+   "using": "css selector",
+   "value": "passId"
+}
+[1598992965.848][INFO]: Waiting for pending navigations...
+[1598992965.853][INFO]: Done waiting for pending navigations. Status: ok
+[1598992965.879][INFO]: Waiting for pending navigations...
+[1598992965.880][INFO]: Done waiting for pending navigations. Status: ok
+[1598992965.881][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"passId"}
+  (Session info: chrome=84.0.4147.135)
+[1598992966.484][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND ExecuteScript {
+   "args": [  ],
+   "script": "var source = document.documentElement.outerHTML; \nif (!source) { source = new XMLSerializer().serializeToString(document); }\nreturn source;"
+}
+[1598992966.485][INFO]: Waiting for pending navigations...
+[1598992966.487][INFO]: Done waiting for pending navigations. Status: ok
+[1598992967.349][INFO]: Waiting for pending navigations...
+[1598992967.351][INFO]: Done waiting for pending navigations. Status: ok
+[1598992967.354][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE ExecuteScript "\u003Chtml>\u003Chead>\n  \u003Cmeta charset=\"utf-8\">\n  \u003Clink rel=\"icon\" type=\"image/png\" sizes=\"96x96\" href=\"/favicon.png\">\n  \u003Cmeta http-equiv=\"X-UA-Compatible\" content=\"IE=edge,chrome=1\">\n\n  \u003Ctitle>Ninja+\u003C/title..."
+[1598992968.683][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND Screenshot {
+
+}
+[1598992968.683][INFO]: Waiting for pending navigations...
+[1598992968.685][INFO]: Done waiting for pending navigations. Status: ok
+[1598992971.669][INFO]: Waiting for pending navigations...
+[1598992971.671][INFO]: Done waiting for pending navigations. Status: ok
+[1598992971.673][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABUYAAAKoCAYAAAC7qCUdAAAAAXNSR0IArs4c6QAAIABJREFUeJzUvVmTJDmSJvYpYOZxZWYd0z1LzlK4f3V+I4UifOIbd2e3Od1dVZlxuLsBug96wszcwzOzuqcXVZHhYW4AFAqFXlAoiKgyvrl8bVUCyD4RGJyaYFApALM8Ynkdf..."
+[1598992974.422][INFO]: [0229d2a1f0693d095468cf139c428fe9] COMMAND Quit {
+
+}
+[1598992980.989][INFO]: [0229d2a1f0693d095468cf139c428fe9] RESPONSE Quit
