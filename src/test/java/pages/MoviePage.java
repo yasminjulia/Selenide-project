@@ -40,7 +40,7 @@ public class MoviePage {
         //código que executa comando em javascript para remover uma classe que oculta o elemento
         String js = "document.getElementById('upcover').classList.remove('el-upload-__input');";
         executeJavaScript(js);
-        $("#upload").uploadFile(cover);
+        $("#upcover").uploadFile(cover);
     }
     private void inputCast(List<String> atores){
         SelenideElement element = $(".cast");

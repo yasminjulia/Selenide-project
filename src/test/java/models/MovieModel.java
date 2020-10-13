@@ -22,7 +22,7 @@ public class MovieModel {
         this.cover = new File(this.coverPath()+cover);
     }
     private String coverPath(){
-        String executionPath = System.getProperty("user .dir");
+        String executionPath = System.getProperty("user.dir");
         String os = System.getProperty("os.name");
         String target;
 
