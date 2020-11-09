@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a4d84a-3027-4456-bdaa-4682a5a2e92c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/libs/Database.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/libs/Database.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/models/MovieModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/models/MovieModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MoviePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MoviePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/MovieTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MovieTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/ninjaplus.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/common/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/common/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/components/SideBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/components/SideBar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/models/MovieModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/models/MovieModel.class" afterDir="false" />
@@ -48,6 +47,7 @@
   </component>
   <component name="ProjectId" id="1gnOr5P9MrdW0PAWS9kknlM6PaK" />
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,6 +57,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/cover" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -113,18 +114,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieTests.shouldRegisterNewMovie" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieTests.shouldRegisterNewMovie" type="TestNG" nameIsGenerated="true">
       <module name="ninjaplus" />
+      <useClassPathOnly />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8.0_251" />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="tests" />
       <option name="MAIN_CLASS_NAME" value="tests.MovieTests" />
       <option name="METHOD_NAME" value="shouldRegisterNewMovie" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
+      <module name="ninjaplus" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="SUITE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -147,11 +196,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="TestNG.Unnamed" />
+      <item itemvalue="TestNG.MovieTests.shouldRegisterNewMovie" />
+      <item itemvalue="TestNG.LoginTests" />
+      <item itemvalue="TestNG.MovieTests" />
+      <item itemvalue="TestNG.MovieTests.searchOneMovie" />
+      <item itemvalue="TestNG.tests" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MovieTests" />
         <item itemvalue="TestNG.MovieTests.searchOneMovie" />
-        <item itemvalue="TestNG.MovieTests.shouldRegisterNewMovie" />
         <item itemvalue="TestNG.tests" />
         <item itemvalue="TestNG.LoginTests" />
       </list>
@@ -175,74 +231,99 @@
       <option name="project" value="LOCAL" />
       <updated>1600286111853</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implementado classe que executa query">
+      <created>1602621906198</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602621906198</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Implementado classe que faz conexão com postgresql" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementado classe que faz conexão com postgresql" />
+    <MESSAGE value="Implementado classe que executa query" />
+    <MESSAGE value="adding allure reports puglins" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding allure reports puglins" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="387" y="128" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1602621379730">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="387" y="128" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602621379730" />
+    <state x="174" y="5" width="1133" height="855" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602704058215">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="174" y="5" width="1133" height="855" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602704058215" />
     <state x="400" y="155" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1600179934519">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="400" y="155" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1600179934519" />
-    <state x="305" y="0" key="CommitChangelistDialog2" timestamp="1600286098884">
+    <state x="305" y="0" key="CommitChangelistDialog2" timestamp="1604883511200">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="305" y="0" key="CommitChangelistDialog2/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1600286098884" />
-    <state width="1385" height="216" key="GridCell.Tab.0.bottom" timestamp="1602621464003">
+    <state x="305" y="0" key="CommitChangelistDialog2/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604883511200" />
+    <state x="393" y="138" key="EnvironmentVariablesDialog" timestamp="1602703314063">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="216" key="GridCell.Tab.0.bottom/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602621464003" />
+    <state x="393" y="138" key="EnvironmentVariablesDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602703314063" />
+    <state width="1385" height="291" key="GridCell.Tab.0.bottom" timestamp="1604883202002">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state width="1385" height="291" key="GridCell.Tab.0.bottom/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604883202002" />
     <state width="1038" height="159" key="GridCell.Tab.0.bottom/1440.0.1093.582/0.0.1440.860@1440.0.1093.582" timestamp="1599078637168" />
-    <state width="1385" height="216" key="GridCell.Tab.0.center" timestamp="1602621464002">
+    <state width="1385" height="291" key="GridCell.Tab.0.center" timestamp="1604883202001">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="216" key="GridCell.Tab.0.center/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602621464002" />
+    <state width="1385" height="291" key="GridCell.Tab.0.center/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604883202001" />
     <state width="1038" height="159" key="GridCell.Tab.0.center/1440.0.1093.582/0.0.1440.860@1440.0.1093.582" timestamp="1599078637166" />
-    <state width="1385" height="216" key="GridCell.Tab.0.left" timestamp="1602621464002">
+    <state width="1385" height="291" key="GridCell.Tab.0.left" timestamp="1604883202001">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="216" key="GridCell.Tab.0.left/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602621464002" />
+    <state width="1385" height="291" key="GridCell.Tab.0.left/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604883202001" />
     <state width="1038" height="159" key="GridCell.Tab.0.left/1440.0.1093.582/0.0.1440.860@1440.0.1093.582" timestamp="1599078637165" />
-    <state width="1385" height="216" key="GridCell.Tab.0.right" timestamp="1602621464003">
+    <state width="1385" height="291" key="GridCell.Tab.0.right" timestamp="1604883202002">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="216" key="GridCell.Tab.0.right/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602621464003" />
+    <state width="1385" height="291" key="GridCell.Tab.0.right/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604883202002" />
     <state width="1038" height="159" key="GridCell.Tab.0.right/1440.0.1093.582/0.0.1440.860@1440.0.1093.582" timestamp="1599078637167" />
-    <state width="1385" height="198" key="GridCell.Tab.1.bottom" timestamp="1602613002130">
+    <state width="1385" height="198" key="GridCell.Tab.1.bottom" timestamp="1602704668318">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="198" key="GridCell.Tab.1.bottom/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602613002130" />
-    <state width="1385" height="198" key="GridCell.Tab.1.center" timestamp="1602613002129">
+    <state width="1385" height="198" key="GridCell.Tab.1.bottom/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602704668318" />
+    <state width="1385" height="198" key="GridCell.Tab.1.center" timestamp="1602704668318">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="198" key="GridCell.Tab.1.center/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602613002129" />
-    <state width="1385" height="198" key="GridCell.Tab.1.left" timestamp="1602613002128">
+    <state width="1385" height="198" key="GridCell.Tab.1.center/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602704668318" />
+    <state width="1385" height="198" key="GridCell.Tab.1.left" timestamp="1602704668317">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="198" key="GridCell.Tab.1.left/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602613002128" />
-    <state width="1385" height="198" key="GridCell.Tab.1.right" timestamp="1602613002129">
+    <state width="1385" height="198" key="GridCell.Tab.1.left/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602704668317" />
+    <state width="1385" height="198" key="GridCell.Tab.1.right" timestamp="1602704668318">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="198" key="GridCell.Tab.1.right/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602613002129" />
+    <state width="1385" height="198" key="GridCell.Tab.1.right/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602704668318" />
     <state x="1440" y="0" key="Maven.ArtifactSearchDialog" timestamp="1598829256289">
       <screen x="1440" y="0" width="1093" height="582" />
     </state>
     <state x="1440" y="0" key="Maven.ArtifactSearchDialog/1440.0.1093.582/0.0.1440.860@1440.0.1093.582" timestamp="1598829256289" />
-    <state x="212" y="98" key="Vcs.Push.Dialog.v2" timestamp="1600286256912">
+    <state x="112" y="0" key="SettingsEditor" timestamp="1604871290279">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="212" y="98" key="Vcs.Push.Dialog.v2/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1600286256912" />
-    <state x="351" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1600375498208">
+    <state x="112" y="0" key="SettingsEditor/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604871290279" />
+    <state x="212" y="98" key="Vcs.Push.Dialog.v2" timestamp="1602621925136">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="351" y="212" key="com.intellij.ide.util.TipDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1600375498208" />
+    <state x="212" y="98" key="Vcs.Push.Dialog.v2/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602621925136" />
+    <state x="351" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1604871015650">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="351" y="212" key="com.intellij.ide.util.TipDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604871015650" />
     <state x="498" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600286218117">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

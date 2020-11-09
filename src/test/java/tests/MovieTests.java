@@ -5,6 +5,7 @@ import libs.Database;
 import models.MovieModel;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import java.sql.SQLException;
@@ -23,6 +24,10 @@ public class MovieTests extends BaseTest {
                 .open()
                 .with("julia@ninjaplus.com", "132902");
 
+    }
+
+    @BeforeSuite
+    public void delorean() {
         db = new Database();
         db.insertMovies();
     }
