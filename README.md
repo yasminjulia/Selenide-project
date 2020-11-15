@@ -1,4 +1,4 @@
-﻿# Selenide project
+﻿# Selenide project :blush:
  ____
  ## Sobre o projeto
  Projeto selenide trata-se de um curso realizado pela QA Ninja com tutoria de Fernando Papito, que ensina como automatizar testes end-to-end com selenium webdriver utilizando a api do selenide que é um framework para automação de teste desenvolvida por Selenium que traz as seguintes vantagens:
