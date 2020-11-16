@@ -1,0 +1,30 @@
+{
+  "uuid": "c1cf31fd-82ac-493e-ad66-d190f9bc6a18",
+  "name": "common.BaseTest.finish",
+  "children": [
+    "be213cb3-dd1f-409b-939b-9b7053d17737"
+  ],
+  "description": "",
+  "befores": [],
+  "afters": [
+    {
+      "name": "finish",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Evidencia",
+          "source": "4ad9ec66-5ce9-4f56-bb20-4c9910b0d5e6-attachment"
+        }
+      ],
+      "parameters": [],
+      "start": 1605491020945,
+      "stop": 1605491024531
+    }
+  ],
+  "links": [],
+  "start": 1605491020945,
+  "stop": 1605491024531
+}

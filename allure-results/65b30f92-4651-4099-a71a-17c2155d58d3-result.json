@@ -1,0 +1,74 @@
+{
+  "name": "LoginAlerts",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "arg2",
+      "value": "Usuário e/ou senha inválidos"
+    },
+    {
+      "name": "arg1",
+      "value": "pwd12"
+    },
+    {
+      "name": "arg0",
+      "value": "julia@ninjaplus.com"
+    }
+  ],
+  "start": 1605490801638,
+  "stop": 1605490961373,
+  "uuid": "65b30f92-4651-4099-a71a-17c2155d58d3",
+  "historyId": "d2de59d6fce37bb79e2c8621ab10022b",
+  "fullName": "tests.LoginTests.LoginAlerts",
+  "labels": [
+    {
+      "name": "package",
+      "value": "tests.LoginTests"
+    },
+    {
+      "name": "testClass",
+      "value": "tests.LoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginAlerts"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "untitled"
+    },
+    {
+      "name": "subSuite",
+      "value": "tests.LoginTests"
+    },
+    {
+      "name": "host",
+      "value": "Yasmin-PC"
+    },
+    {
+      "name": "thread",
+      "value": "1348@Yasmin-PC.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

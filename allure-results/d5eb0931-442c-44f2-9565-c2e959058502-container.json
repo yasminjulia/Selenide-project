@@ -1,0 +1,25 @@
+{
+  "uuid": "d5eb0931-442c-44f2-9565-c2e959058502",
+  "name": "tests.LoginTests.cleanup",
+  "children": [
+    "5e28d1e0-57a9-4248-927c-b3e2a4fb4863"
+  ],
+  "description": "",
+  "befores": [],
+  "afters": [
+    {
+      "name": "cleanup",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1604884815558,
+      "stop": 1604884815578
+    }
+  ],
+  "links": [],
+  "start": 1604884815558,
+  "stop": 1604884815578
+}

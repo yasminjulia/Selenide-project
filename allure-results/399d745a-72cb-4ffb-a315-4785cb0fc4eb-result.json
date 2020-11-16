@@ -1,0 +1,74 @@
+{
+  "name": "LoginAlerts",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "arg2",
+      "value": "Opps. Cadê o email?"
+    },
+    {
+      "name": "arg1",
+      "value": "pwd123"
+    },
+    {
+      "name": "arg0",
+      "value": ""
+    }
+  ],
+  "start": 1605302485153,
+  "stop": 1605302488300,
+  "uuid": "399d745a-72cb-4ffb-a315-4785cb0fc4eb",
+  "historyId": "31089f807074d091c6a4176b4a82e16b",
+  "fullName": "tests.LoginTests.LoginAlerts",
+  "labels": [
+    {
+      "name": "package",
+      "value": "tests.LoginTests"
+    },
+    {
+      "name": "testClass",
+      "value": "tests.LoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "LoginAlerts"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "untitled"
+    },
+    {
+      "name": "subSuite",
+      "value": "tests.LoginTests"
+    },
+    {
+      "name": "host",
+      "value": "Yasmin-PC"
+    },
+    {
+      "name": "thread",
+      "value": "11552@Yasmin-PC.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

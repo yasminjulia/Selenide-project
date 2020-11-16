@@ -1,0 +1,25 @@
+{
+  "uuid": "0779f238-76be-4f46-a077-2e51d416d0da",
+  "name": "tests.MovieTests.cleanup",
+  "children": [
+    "70becc8b-d828-4285-9696-c0fd7ffac0ef"
+  ],
+  "description": "",
+  "befores": [],
+  "afters": [
+    {
+      "name": "cleanup",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1605287809485,
+      "stop": 1605287809532
+    }
+  ],
+  "links": [],
+  "start": 1605287809483,
+  "stop": 1605287809532
+}

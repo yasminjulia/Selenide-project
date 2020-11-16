@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8a4d84a-3027-4456-bdaa-4682a5a2e92c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/MovieTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/MovieTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/ninjaplus.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/common/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/common/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/components/SideBar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/components/SideBar.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/models/MovieModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/models/MovieModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/MoviePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/MoviePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/HelloSele.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/HelloSele.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/LoginTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/tests/MovieTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/MovieTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +58,7 @@
       <recent name="C:\Users\Yasmin\IdeaProjects\untitled\src\main\resources\cover" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.MovieTests">
+  <component name="RunManager" selected="TestNG.LoginTests">
     <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="ninjaplus" />
       <option name="PACKAGE_NAME" value="" />
@@ -206,10 +197,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.MovieTests" />
-        <item itemvalue="TestNG.MovieTests.searchOneMovie" />
-        <item itemvalue="TestNG.tests" />
         <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.MovieTests" />
+        <item itemvalue="TestNG.tests" />
+        <item itemvalue="TestNG.MovieTests.searchOneMovie" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602621906198</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding allure reports puglins">
+      <created>1604883528902</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604883528902</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -272,58 +270,58 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="393" y="138" key="EnvironmentVariablesDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602703314063" />
-    <state width="1385" height="291" key="GridCell.Tab.0.bottom" timestamp="1604883202002">
+    <state width="1385" height="160" key="GridCell.Tab.0.bottom" timestamp="1605491036510">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="291" key="GridCell.Tab.0.bottom/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604883202002" />
+    <state width="1385" height="160" key="GridCell.Tab.0.bottom/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1605491036510" />
     <state width="1038" height="159" key="GridCell.Tab.0.bottom/1440.0.1093.582/0.0.1440.860@1440.0.1093.582" timestamp="1599078637168" />
-    <state width="1385" height="291" key="GridCell.Tab.0.center" timestamp="1604883202001">
+    <state width="1385" height="160" key="GridCell.Tab.0.center" timestamp="1605491036509">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="291" key="GridCell.Tab.0.center/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604883202001" />
+    <state width="1385" height="160" key="GridCell.Tab.0.center/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1605491036509" />
     <state width="1038" height="159" key="GridCell.Tab.0.center/1440.0.1093.582/0.0.1440.860@1440.0.1093.582" timestamp="1599078637166" />
-    <state width="1385" height="291" key="GridCell.Tab.0.left" timestamp="1604883202001">
+    <state width="1385" height="160" key="GridCell.Tab.0.left" timestamp="1605491036509">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="291" key="GridCell.Tab.0.left/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604883202001" />
+    <state width="1385" height="160" key="GridCell.Tab.0.left/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1605491036509" />
     <state width="1038" height="159" key="GridCell.Tab.0.left/1440.0.1093.582/0.0.1440.860@1440.0.1093.582" timestamp="1599078637165" />
-    <state width="1385" height="291" key="GridCell.Tab.0.right" timestamp="1604883202002">
+    <state width="1385" height="160" key="GridCell.Tab.0.right" timestamp="1605491036510">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="291" key="GridCell.Tab.0.right/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604883202002" />
+    <state width="1385" height="160" key="GridCell.Tab.0.right/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1605491036510" />
     <state width="1038" height="159" key="GridCell.Tab.0.right/1440.0.1093.582/0.0.1440.860@1440.0.1093.582" timestamp="1599078637167" />
-    <state width="1385" height="198" key="GridCell.Tab.1.bottom" timestamp="1602704668318">
+    <state width="1385" height="198" key="GridCell.Tab.1.bottom" timestamp="1605290209366">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="198" key="GridCell.Tab.1.bottom/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602704668318" />
-    <state width="1385" height="198" key="GridCell.Tab.1.center" timestamp="1602704668318">
+    <state width="1385" height="198" key="GridCell.Tab.1.bottom/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1605290209366" />
+    <state width="1385" height="198" key="GridCell.Tab.1.center" timestamp="1605290209365">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="198" key="GridCell.Tab.1.center/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602704668318" />
-    <state width="1385" height="198" key="GridCell.Tab.1.left" timestamp="1602704668317">
+    <state width="1385" height="198" key="GridCell.Tab.1.center/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1605290209365" />
+    <state width="1385" height="198" key="GridCell.Tab.1.left" timestamp="1605290209364">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="198" key="GridCell.Tab.1.left/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602704668317" />
-    <state width="1385" height="198" key="GridCell.Tab.1.right" timestamp="1602704668318">
+    <state width="1385" height="198" key="GridCell.Tab.1.left/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1605290209364" />
+    <state width="1385" height="198" key="GridCell.Tab.1.right" timestamp="1605290209365">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1385" height="198" key="GridCell.Tab.1.right/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602704668318" />
+    <state width="1385" height="198" key="GridCell.Tab.1.right/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1605290209365" />
     <state x="1440" y="0" key="Maven.ArtifactSearchDialog" timestamp="1598829256289">
       <screen x="1440" y="0" width="1093" height="582" />
     </state>
     <state x="1440" y="0" key="Maven.ArtifactSearchDialog/1440.0.1093.582/0.0.1440.860@1440.0.1093.582" timestamp="1598829256289" />
-    <state x="112" y="0" key="SettingsEditor" timestamp="1604871290279">
+    <state x="112" y="0" key="SettingsEditor" timestamp="1605489613219">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="112" y="0" key="SettingsEditor/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604871290279" />
-    <state x="212" y="98" key="Vcs.Push.Dialog.v2" timestamp="1602621925136">
+    <state x="112" y="0" key="SettingsEditor/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1605489613219" />
+    <state x="212" y="98" key="Vcs.Push.Dialog.v2" timestamp="1604883570289">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="212" y="98" key="Vcs.Push.Dialog.v2/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1602621925136" />
-    <state x="351" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1604871015650">
+    <state x="212" y="98" key="Vcs.Push.Dialog.v2/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604883570289" />
+    <state x="351" y="212" key="com.intellij.ide.util.TipDialog" timestamp="1605557071730">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="351" y="212" key="com.intellij.ide.util.TipDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604871015650" />
+    <state x="351" y="212" key="com.intellij.ide.util.TipDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1605557071730" />
     <state x="498" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600286218117">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

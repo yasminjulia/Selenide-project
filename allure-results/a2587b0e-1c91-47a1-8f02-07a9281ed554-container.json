@@ -1,0 +1,25 @@
+{
+  "uuid": "a2587b0e-1c91-47a1-8f02-07a9281ed554",
+  "name": "common.BaseTest.finish",
+  "children": [
+    "fdba6142-457f-49c3-8d2f-5a135943b815"
+  ],
+  "description": "",
+  "befores": [],
+  "afters": [
+    {
+      "name": "finish",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1605287836935,
+      "stop": 1605287838921
+    }
+  ],
+  "links": [],
+  "start": 1605287836935,
+  "stop": 1605287838921
+}

@@ -1,0 +1,61 @@
+{
+  "name": "shouldRegisterNewMovie",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1604883383229,
+  "stop": 1604883405384,
+  "uuid": "8625db66-20ee-4280-bbe6-de5f69ec9ce1",
+  "historyId": "bdb65c56812e2739a44a166a427095f",
+  "fullName": "tests.MovieTests.shouldRegisterNewMovie",
+  "labels": [
+    {
+      "name": "package",
+      "value": "tests.MovieTests"
+    },
+    {
+      "name": "testClass",
+      "value": "tests.MovieTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "shouldRegisterNewMovie"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "untitled"
+    },
+    {
+      "name": "subSuite",
+      "value": "tests.MovieTests"
+    },
+    {
+      "name": "host",
+      "value": "Yasmin-PC"
+    },
+    {
+      "name": "thread",
+      "value": "5820@Yasmin-PC.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

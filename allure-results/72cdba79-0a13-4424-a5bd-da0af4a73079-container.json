@@ -1,0 +1,25 @@
+{
+  "uuid": "72cdba79-0a13-4424-a5bd-da0af4a73079",
+  "name": "tests.MovieTests.setup",
+  "children": [
+    "70becc8b-d828-4285-9696-c0fd7ffac0ef"
+  ],
+  "description": "",
+  "befores": [
+    {
+      "name": "setup",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1605287718000,
+      "stop": 1605287797498
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1605287718000,
+  "stop": 1605287797498
+}

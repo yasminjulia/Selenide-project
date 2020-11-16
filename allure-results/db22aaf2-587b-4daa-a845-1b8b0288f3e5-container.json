@@ -1,0 +1,25 @@
+{
+  "uuid": "db22aaf2-587b-4daa-a845-1b8b0288f3e5",
+  "name": "common.BaseTest.start",
+  "children": [
+    "8625db66-20ee-4280-bbe6-de5f69ec9ce1"
+  ],
+  "description": "",
+  "befores": [
+    {
+      "name": "start",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1604883378119,
+      "stop": 1604883378119
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1604883378119,
+  "stop": 1604883378120
+}

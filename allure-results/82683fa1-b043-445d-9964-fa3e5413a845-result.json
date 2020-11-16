@@ -1,0 +1,61 @@
+{
+  "name": "loggedUser",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1604884868491,
+  "stop": 1604884876094,
+  "uuid": "82683fa1-b043-445d-9964-fa3e5413a845",
+  "historyId": "c75bc5a91eaf3e20023aa14834b5f5ca",
+  "fullName": "tests.LoginTests.loggedUser",
+  "labels": [
+    {
+      "name": "package",
+      "value": "tests.LoginTests"
+    },
+    {
+      "name": "testClass",
+      "value": "tests.LoginTests"
+    },
+    {
+      "name": "testMethod",
+      "value": "loggedUser"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Default Suite"
+    },
+    {
+      "name": "suite",
+      "value": "untitled"
+    },
+    {
+      "name": "subSuite",
+      "value": "tests.LoginTests"
+    },
+    {
+      "name": "host",
+      "value": "Yasmin-PC"
+    },
+    {
+      "name": "thread",
+      "value": "11452@Yasmin-PC.main(1)"
+    },
+    {
+      "name": "framework",
+      "value": "testng"
+    },
+    {
+      "name": "language",
+      "value": "java"
+    }
+  ],
+  "links": []
+}

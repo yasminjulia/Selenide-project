@@ -1,0 +1,24 @@
+{
+  "uuid": "da703e75-1d69-4982-bf9c-2912d9a71e56",
+  "name": "Default Suite",
+  "children": [
+    "8856ba72-e3ae-4279-8a4e-d01b5b731885"
+  ],
+  "befores": [
+    {
+      "name": "delorean",
+      "status": "passed",
+      "stage": "finished",
+      "description": "",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1604879345658,
+      "stop": 1604879347412
+    }
+  ],
+  "afters": [],
+  "links": [],
+  "start": 1604879345485,
+  "stop": 1604879467471
+}
