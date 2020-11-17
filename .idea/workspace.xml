@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f8a4d84a-3027-4456-bdaa-4682a5a2e92c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/common/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/common/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/common/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/common/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/MovieTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/MovieTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -236,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604883528902</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="adding allure reports puglins &amp; finishing course">
+      <created>1605557624392</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605557624392</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -244,7 +248,8 @@
     <MESSAGE value="Implementado classe que faz conexão com postgresql" />
     <MESSAGE value="Implementado classe que executa query" />
     <MESSAGE value="adding allure reports puglins" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding allure reports puglins" />
+    <MESSAGE value="adding allure reports puglins &amp; finishing course" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding allure reports puglins &amp; finishing course" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -262,10 +267,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="400" y="155" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1600179934519" />
-    <state x="305" y="0" key="CommitChangelistDialog2" timestamp="1604883511200">
+    <state x="305" y="0" key="CommitChangelistDialog2" timestamp="1605557610877">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="305" y="0" key="CommitChangelistDialog2/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1604883511200" />
+    <state x="305" y="0" key="CommitChangelistDialog2/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1605557610877" />
     <state x="393" y="138" key="EnvironmentVariablesDialog" timestamp="1602703314063">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -322,10 +327,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="351" y="212" key="com.intellij.ide.util.TipDialog/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1605557071730" />
-    <state x="498" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600286218117">
+    <state x="498" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605573655438">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="498" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1600286218117" />
+    <state x="498" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1440.0.1093.582/0.0.1440.860@0.0.1440.860" timestamp="1605573655438" />
     <state x="0" y="0" width="731" height="1011" key="find.popup" timestamp="1599251906889">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
