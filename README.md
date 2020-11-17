@@ -21,8 +21,11 @@ O JDK 8 tem a maior compatibilidade com o Selenium e Appium
 * Maven dependency
 * Scoop
 * Allure
-
+___
 ## Reportes
-![]()
-
+### * Relatório de execução de teste com allure
+![report-fail](https://github.com/yasminjulia/Selenide-project/blob/master/assets-readme/Screenshot_1.png)
+### * Reporte com screenshot anexado
+![report-fail](https://github.com/yasminjulia/Selenide-project/blob/master/assets-readme/allure2.png)
+---
 # :eye::lips::eye: 
